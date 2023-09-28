@@ -1,0 +1,33 @@
+.produto-destaque__container {
+    text-align: center;
+    position: relative;
+}
+
+.produto-destaque__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--branco);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.produto-destaque__texto {
+    font-size: 16px;
+    color: var(--branco);
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.produto-destaque__link:hover {
+    font-weight: 700;
+}
+
+
+.produto-destaque__imagem {
+    width: 100%;
+}

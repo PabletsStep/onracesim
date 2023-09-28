@@ -1,0 +1,39 @@
+.button-box__container {
+    background-color: var(--cinza);
+}
+
+.button-box__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 1em 0 0 1em;
+}
+
+.button-box__subtitulo {
+    font-size: 16px;
+    color: var(--branco);
+    padding: 0.5em 0 1em 1em;
+}
+
+.button-box__cards {
+    display: flex;
+    background-color: var(--cinza);
+}
+
+.button-box__cards__card {
+    background-color: var(--cinza-card);
+    margin: 0.5em;
+}
+
+.button-box__cards__card__imagem {
+    width: 100%;
+}
+
+.button-box__cards__card__texto {
+    color: var(--branco);
+    padding: 0.5em 0 1em 1em;
+}
+
+.button-box__cards__card__link {
+    text-decoration: none;
+}

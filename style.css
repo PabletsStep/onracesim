@@ -1,0 +1,19 @@
+@import url("./styles/header.css");
+@import url("./styles/banner.css");
+@import url("./styles/produto-destaque.css");
+@import url("./styles/button-box__home.css");
+
+:root {
+    --fonte-principal:'Roboto', sans-serif;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza: #1C1C1C;
+    --cinza-card: #2F2F2F;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 400;
+}

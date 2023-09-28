@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>OnRaceSim</title>
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho__container">
+                <input type="checkbox" id="menu" class="cabecalho__input">
+                <label for="menu" class="cabecalho__label">
+                    <img class="cabecalho__imagem__menu" src="./assets/menu-hamburguer.png">
+                </label>
+                <ul class="cabecalho__lista-menu">
+                    <li class="cabecalho__lista-menu__item"><a class="cabecalho__lista-menu__link" href="#">Freio de Mão</a></li><hr>
+                    <li class="cabecalho__lista-menu__item"><a class="cabecalho__lista-menu__link" href="#">Câmbio Sequêncial</a></li><hr>
+                    <li class="cabecalho__lista-menu__item"><a class="cabecalho__lista-menu__link" href="#">Cockpit Alumínio</a></li><hr>
+                    <li class="cabecalho__lista-menu__item"><a class="cabecalho__lista-menu__link" href="#">Button Box</a></li><hr>
+                    <li class="cabecalho__lista-menu__item"><a class="cabecalho__lista-menu__link" href="#">Bezzel Free</a></li><hr>
+                    <li class="cabecalho__lista-menu__item"><a class="cabecalho__lista-menu__link" href="#">Race Logic</a></li><hr>
+                    <li class="cabecalho__lista-menu__item"><a class="cabecalho__lista-menu__link" href="#">Flag de Led</a></li>
+                </ul>
+                <a href="index.html"><img class="cabecalho__imagem__logo" src="./assets/logo.png" alt="imagem logo"></a>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="banner__container">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./assets/carrosel.jpg" alt="Imagem teste"></div>
+                        <div class="swiper-slide"><img src="./assets/pedal.jpg" alt="Imagem teste"></div>
+                    </div>    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="produto-destaque">
+            <div class="produto-destaque__container">
+                <h2 class="produto-destaque__titulo">R9 WHEEL BASE</h2>
+                <a href="#" class="produto-destaque__link"><p class="produto-destaque__texto">Compre Agora</p></a>
+                <img class="produto-destaque__imagem" src="./assets/carrosel.jpg" alt="imagem do produto em destaque">
+            </div>
+        </section>
+        <section class="button-box">
+            <div class="button-box__container">
+                <h2 class="button-box__titulo">Button Boxes</h2><hr>
+                <p class="button-box__subtitulo">Selecione sua button box favorita e comece a correr agora!</p>
+                <div class="button-box__cards">
+                    <div class="button-box__cards__card">
+                        <a href="#" class="button-box__cards__card__link"><img src="./assets/button-box.jpg" alt="imagem button box" class="button-box__cards__card__imagem"></a>
+                        <a href="#" class="button-box__cards__card__link"><p class="button-box__cards__card__texto">Button box 2</p></a>
+                    </div>
+                    <div class="button-box__cards__card">
+                        <a href="#" class="button-box__cards__card__link"><img src="./assets/button-box.jpg" alt="imagem button box" class="button-box__cards__card__imagem"></a>
+                        <a href="#" class="button-box__cards__card__link"><p class="button-box__cards__card__texto">Button box 2</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                spaceBetween: 10,
+                slidesPerView: 1,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                navigation: {
+                    nextEl: '.swipper-button-next',
+                    prevEl: '.swipper-button-prev',
+                },
+                autoplay: {
+                    delay: 3000,
+                },
+                });
+        </script>
+    </body>
+</html>
