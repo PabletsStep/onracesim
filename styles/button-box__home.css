@@ -17,12 +17,15 @@
 
 .button-box__cards {
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--cinza);
 }
 
 .button-box__cards__card {
     background-color: var(--cinza-card);
+    text-align: center;
     margin: 0.5em;
+    width: 45%;
 }
 
 .button-box__cards__card__imagem {
@@ -31,9 +34,15 @@
 
 .button-box__cards__card__texto {
     color: var(--branco);
-    padding: 0.5em 0 1em 1em;
+    padding: 1em;
 }
 
 .button-box__cards__card__link {
     text-decoration: none;
+}
+
+.button-box__cards__texto {
+    color: var(--branco);
+    font-weight: 700;
+    padding: 1em 0.5em;
 }

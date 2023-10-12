@@ -2,6 +2,8 @@
 @import url("./styles/banner.css");
 @import url("./styles/produto-destaque.css");
 @import url("./styles/button-box__home.css");
+@import url("./styles/game-compatibility.css");
+@import url("./styles/footer.css");
 
 :root {
     --fonte-principal:'Roboto', sans-serif;

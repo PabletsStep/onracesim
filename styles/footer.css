@@ -1,0 +1,12 @@
+.rodape__container {
+    background-color: var(--cinza);
+    text-align: center;
+}
+
+.rodape__social {
+    padding: 1em;
+}
+
+.rodape__texto {
+    color: var(--branco);
+}

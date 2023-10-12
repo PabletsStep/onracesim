@@ -1,0 +1,34 @@
+.game-compatibility__container {
+    background-image: url('../assets/game.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.game-compatibility__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 1em 0 0 1em;
+}
+
+.game-compatibility__subtitulo {
+    font-size: 16px;
+    color: var(--branco);
+    padding: 0.5em 0 1em 1em;
+}
+
+.game-compatibility__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-compatibility__lista__game {
+    padding: 1em;
+    width: 30%;
+}
+
+.game-compatibility__lista__game {
+    color: var(--branco);
+}
